@@ -1,0 +1,32 @@
+names:
+- battery
+- can
+- cardboard_bowl
+- cardboard_box
+- chemical_plastic_gallon
+- chemical_spray_can
+- light_bulb
+- paint_bucket
+- plastic_bag
+- plastic_bottle
+- plastic_bottle_cap
+- plastic_box
+- plastic_cup
+- plastic_cup_lid
+- plastic_spoon
+- scrap_paper
+- scrap_plastic
+- snack_bag
+- stick
+- straw
+- toilet_cleaner
+nc: 21
+roboflow:
+  license: CC BY 4.0
+  project: waste-detection-vqkjo
+  url: https://universe.roboflow.com/ai-project-i3wje/waste-detection-vqkjo/dataset/9
+  version: 9
+  workspace: ai-project-i3wje
+test: ../test/images
+train: ../train/images
+val: ../valid/images
